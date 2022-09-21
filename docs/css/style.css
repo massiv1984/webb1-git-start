@@ -1,5 +1,10 @@
 body {
-    color: rgb(255, 0, 0);
-    background-color: #0ddba4;
-    font-family: 'Cinzel', serif;
+    max-width: 65ch;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    font-family: serif;
 }
