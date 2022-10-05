@@ -1,0 +1,29 @@
+body {
+    color: rgb(216, 166, 27);
+    background-color: rgb(127, 12, 145);
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
